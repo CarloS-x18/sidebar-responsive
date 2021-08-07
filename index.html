@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <button class="button__toggle" id="btn-toggle">
+        <img class="toggle__img" src="src/img/menu.svg" alt="">
+    </button>
+    <aside class="aside" id="sidebar">
+        <!-- logo -->
+        <div class="aside__header">
+            <h1 class="header__title">Sidebar<span class="header__title--blue">Res</span></h1>
+            <button id="btn-close" class="header__button">
+                <img src="src/img/x.svg" alt="">
+            </button>
+        </div>
+        <!-- links -->
+        <ul class="aside__pages">
+            <li class="pages__li">
+                <a class="page" href="">Home</a>
+            </li>
+            <li class="pages__li">
+                <a class="page" href="">Works</a>
+            </li>
+            <li class="pages__li">
+                <a class="page" href="">Contacto</a>
+            </li>
+            <li class="pages__li">
+                <a class="page" href="">About</a>
+            </li>
+        </ul>
+        <!-- socials -->
+        <ul class="aside__socials">
+            <li class="socials__li">
+                <a class="social" href="https://twitter.com">
+                    <img class="social__img" src="src/img/twitter.svg" alt="">
+                </a>
+            </li>
+            <li class="socials__li">
+                <a class="social" href="https://facebook.com">
+                    <img class="social__img" src="src/img/facebook.svg" alt="">
+                </a>
+            </li>
+            <li class="socials__li">
+                <a class="social" href="https://github.com">
+                    <img class="social__img" src="src/img/github.svg" alt="">
+                </a>
+            </li>
+            <li class="socials__li">
+                <a class="social" href="https://gitlab.com">
+                    <img class="social__img" src="src/img/gitlab.svg" alt="">
+                </a>
+            </li>
+            <li class="socials__li">
+                <a class="social" href="https://linkedin.com">
+                    <img class="social__img" src="src/img/linkedin.svg" alt="">
+                </a>
+            </li>
+        </ul>
+    </aside>
+
+    <script src="src/js/app.js"></script>
+</body>
+</html>
